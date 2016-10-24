@@ -1,0 +1,10 @@
+name: SignFix
+main: ru.dragonknight.signfix.Main
+version: 1.0
+author: Dragon_Knight
+website: https://vk.com/id5982674
+description: Corrects the text on tables written with use of own russifier (win1252 => win1251)
+commands:
+  signfix:
+    description: Information about the plugin
+    usage: /signfix
