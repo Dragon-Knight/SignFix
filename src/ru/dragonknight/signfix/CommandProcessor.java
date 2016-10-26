@@ -36,10 +36,10 @@ public class CommandProcessor implements CommandExecutor
 						{
 							idx++;
 							if(idx < 3) continue;
-							tmpline += line;
+							tmpline += line + " ";
 						}
 						
-						sign.setLine(Integer.parseInt(args[1]) - 1, tmpline);
+						sign.setLine(Integer.parseInt(args[1]) - 1, tmpline.trim());
 						sign.update(true);
 						
 						Main.celectedBlock = null;
